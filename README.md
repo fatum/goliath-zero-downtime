@@ -2,12 +2,19 @@
 
 ## Installation
 Execute:
-    $ bundle
+```
+  bundle
+```
 
 ## Running
 Execute
-    $ bundle exec einhorn -b 127.0.0.1:3000 ruby app.rb
+
+```ruby
+  bundle exec einhorn -b 127.0.0.1:3000 ruby app.rb
+```
 
 ## If you encountered on EACESS error
-Simple run
-    $ chmod +x app.rb
+
+```bash
+ chmod +x app.rb
+```
