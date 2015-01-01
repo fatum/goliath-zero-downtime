@@ -25,5 +25,5 @@ $> bundle exec einhorn -b 127.0.0.1:3000 ruby app.rb --einhorn
 
 ## Credits
 
-[Stripe's Einhorn](https://github.com/stripe/einhorn)
-[Goliath](https://github.com/postrank-labs/goliath)
+* [Stripe's Einhorn](https://github.com/stripe/einhorn)
+* [Goliath](https://github.com/postrank-labs/goliath)
