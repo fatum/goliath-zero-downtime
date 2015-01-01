@@ -7,11 +7,12 @@ GIT
 
 GIT
   remote: git://github.com/fatum/goliath.git
-  revision: 9cc4bbba1a7582d40f59625fb21d6b21b67db36f
+  revision: 062004544229822a0bd48a227098b34f4129384d
   branch: socket-manager
   specs:
     goliath (1.0.4)
       async-rack
+      einhorn
       em-synchrony (>= 1.0.0)
       em-websocket (= 0.3.8)
       eventmachine (>= 1.0.0.beta.4)
@@ -48,6 +49,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  einhorn
   eventmachine!
   goliath!

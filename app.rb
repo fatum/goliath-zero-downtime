@@ -4,7 +4,6 @@ require 'bundler/setup'
 Bundler.require
 
 require 'goliath'
-require 'einhorn'
 
 # Einhorn::Worker.ack! if defined?(Einhorn)
 
