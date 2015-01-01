@@ -1,0 +1,53 @@
+GIT
+  remote: git://github.com/eventmachine/eventmachine.git
+  revision: 4de7d0e00fe87819840ba7c7c91e7ed09b85467c
+  tag: v1.0.4
+  specs:
+    eventmachine (1.0.4)
+
+GIT
+  remote: git://github.com/fatum/goliath.git
+  revision: 9cc4bbba1a7582d40f59625fb21d6b21b67db36f
+  branch: socket-manager
+  specs:
+    goliath (1.0.4)
+      async-rack
+      em-synchrony (>= 1.0.0)
+      em-websocket (= 0.3.8)
+      eventmachine (>= 1.0.0.beta.4)
+      http_parser.rb (= 0.6.0)
+      log4r
+      multi_json
+      rack (>= 1.2.2)
+      rack-contrib
+      rack-respond_to
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.6)
+    async-rack (0.5.1)
+      rack (~> 1.1)
+    einhorn (0.6.3)
+    em-synchrony (1.0.3)
+      eventmachine (>= 1.0.0.beta.1)
+    em-websocket (0.3.8)
+      addressable (>= 2.1.1)
+      eventmachine (>= 0.12.9)
+    http_parser.rb (0.6.0)
+    log4r (1.1.10)
+    multi_json (1.10.1)
+    rack (1.6.0)
+    rack-accept-media-types (0.9)
+    rack-contrib (1.2.0)
+      rack (>= 0.9.1)
+    rack-respond_to (0.9.8)
+      rack-accept-media-types (>= 0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  einhorn
+  eventmachine!
+  goliath!
