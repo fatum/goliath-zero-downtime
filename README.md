@@ -5,13 +5,12 @@
 See https://stripe.com/blog/meet-einhorn for more background.
 
 ## Installation
-Execute:
+
 ```
 $> bundle
 ```
 
 ## Running
-Execute
 
 ```ruby
 $> bundle exec einhorn -b 127.0.0.1:3000 ruby app.rb --einhorn
